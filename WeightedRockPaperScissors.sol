@@ -3,7 +3,7 @@ pragma solidity ^0.5.10;
 /**
  * A game of weighted rock paper scissors.
  * It's just like rock paper scissors except a "weight" can be assigned to each of the three options.
- * The weight determines how much wei a player has to bet in order to use said option, this should some mind games to the standard game.
+ * The weight determines how much wei a player has to bet in order to use said option, this should some introduce mind games to the standard game.
  * Please read the comments on top of each method for more informations.
  * 
  * Please note: 
