@@ -1,4 +1,4 @@
-## Smart contract for the game weighted rock paper scissors
+## Smart contract for the game of Weighted Rock Paper Scissors
 
 ### Warning
 
@@ -6,7 +6,7 @@ I've personally deployed and tested this contract to see if it worked properly w
 I still ask you to read the whole contract carefully while having some knowledge about ETH smart contracts and make tests in a safe environment before using it with real ETH.
 If you still decide to deploy this contract you accept my lack of any responsibilities regarding what happens with the deployed contract.
 
-### Weighted rock paper scissors:
+### Weighted Rock Paper Scissors:
 
 It's just like rock paper scissors except a "weight" can be assigned to each of the three options.  
 The weight determines how much wei a player has to bet in order to use said option, this should introduce some mind games to the standard game.  
