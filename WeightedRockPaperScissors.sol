@@ -71,10 +71,10 @@ contract WeightedRockPaperScissors {
  * If Player 1 users rock, they pay 1 Wei.
  * If Player 2 uses paper, they pay 2 Wei.
  * Player 2 wins, therefore they get 3 Wei.
- * Example of game 2:
- * If Player 1 uses rock, they pay 1 Wei.
+ * Example of game 2 if baseBet = 2 instead of 1:
+ * If Player 1 uses rock, they pay 2 Wei.
  * If Player 2 uses scissors, they pay 6 Wei.
- * Player 1 wins, therefore they get 7 Wei.
+ * Player 1 wins, therefore they get 8 Wei.
  * 
  * 3) hiddenPlayer1Choice = keccak256(abi.encodePacked(uint8 choice, bytes32 secret)):
  * Player1's choice between rock, paper and scissors.
